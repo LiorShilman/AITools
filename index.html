@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Manager | מנהל כלי AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-effects">
+        <div class="bg-orb bg-orb-1"></div>
+        <div class="bg-orb bg-orb-2"></div>
+        <div class="bg-orb bg-orb-3"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <span class="material-symbols-outlined">auto_awesome</span>
+                </div>
+                <div class="logo-text">
+                    <h1>AI Tools Manager</h1>
+                    <p>ניהול כלי בינה מלאכותית</p>
+                </div>
+            </div>
+            <div class="header-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalTools">0</span>
+                    <span class="stat-label">כלים</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="totalCategories">0</span>
+                    <span class="stat-label">קטגוריות</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search & Controls Bar -->
+    <section class="controls-bar">
+        <div class="controls-content">
+            <div class="search-wrapper">
+                <span class="material-symbols-outlined search-icon">search</span>
+                <input type="text" id="searchInput" placeholder="חיפוש כלי AI לפי שם, תיאור או תגיות..." autocomplete="off">
+                <button class="clear-search" id="clearSearch" title="נקה חיפוש">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="controls-actions">
+                <div class="filter-wrapper">
+                    <select id="categoryFilter">
+                        <option value="all">כל הקטגוריות</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary" id="addToolBtn">
+                    <span class="material-symbols-outlined">add_circle</span>
+                    הוספת כלי חדש
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Chips -->
+    <section class="category-chips" id="categoryChips">
+    </section>
+
+    <!-- Tools Grid -->
+    <main class="tools-container">
+        <div class="tools-grid" id="toolsGrid">
+        </div>
+        <div class="no-results" id="noResults" style="display:none">
+            <span class="material-symbols-outlined">search_off</span>
+            <h3>לא נמצאו תוצאות</h3>
+            <p>נסה לחפש במילים אחרות או לשנות את הסינון</p>
+        </div>
+    </main>
+
+    <!-- Modal: Add / Edit Tool -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 id="modalTitle">הוספת כלי חדש</h2>
+                <button class="modal-close" id="modalClose">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <form id="toolForm" class="modal-body">
+                <div class="form-group">
+                    <label for="toolName">שם הכלי *</label>
+                    <input type="text" id="toolName" required placeholder="לדוגמה: ChatGPT">
+                </div>
+                <div class="form-group">
+                    <label for="toolUrl">כתובת URL *</label>
+                    <input type="url" id="toolUrl" required placeholder="https://example.com" dir="ltr">
+                </div>
+                <div class="form-group">
+                    <label for="toolCategory">קטגוריה *</label>
+                    <select id="toolCategory" required>
+                        <option value="">בחר קטגוריה...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="toolSubcategory">תת-קטגוריה</label>
+                    <input type="text" id="toolSubcategory" placeholder="לדוגמה: עוזר שיחה">
+                </div>
+                <div class="form-group">
+                    <label for="toolDescription">תיאור *</label>
+                    <textarea id="toolDescription" required rows="3" placeholder="תיאור קצר של הכלי..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="toolTags">תגיות (מופרדות בפסיקים)</label>
+                    <input type="text" id="toolTags" placeholder="chat, writing, coding" dir="ltr">
+                </div>
+                <div class="modal-actions">
+                    <button type="submit" class="btn btn-primary" id="saveToolBtn">
+                        <span class="material-symbols-outlined">save</span>
+                        שמור
+                    </button>
+                    <button type="button" class="btn btn-secondary" id="cancelBtn">ביטול</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: Delete Confirmation -->
+    <div class="modal-overlay" id="deleteModalOverlay">
+        <div class="modal modal-small">
+            <div class="modal-header modal-header-danger">
+                <h2>מחיקת כלי</h2>
+                <button class="modal-close" id="deleteModalClose">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="delete-warning">
+                    <span class="material-symbols-outlined">warning</span>
+                    <p>האם אתה בטוח שברצונך למחוק את <strong id="deleteToolName"></strong>?</p>
+                    <p class="delete-note">פעולה זו אינה ניתנת לביטול.</p>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn btn-danger" id="confirmDeleteBtn">
+                        <span class="material-symbols-outlined">delete_forever</span>
+                        מחק
+                    </button>
+                    <button class="btn btn-secondary" id="cancelDeleteBtn">ביטול</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span class="material-symbols-outlined toast-icon" id="toastIcon">check_circle</span>
+        <span id="toastMessage"></span>
+    </div>
+
+    <footer class="footer">
+        <p>AI Tools Manager &copy; 2026 | נבנה עם <span class="material-symbols-outlined" style="font-size:16px;vertical-align:middle;color:#d4af37">favorite</span></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1232 @@
+{
+  "catalog_name": "AI Tools Catalog (Hebrew)",
+  "compiled_on": "2026-02-21",
+  "schema_version": "1.0",
+  "categories": [
+    {
+      "id": "assistants",
+      "name_he": "עוזרי שיחה ו-LLM",
+      "description_he": "כלים לשיחה, כתיבה, ניתוח, קוד וחיפוש ידע."
+    },
+    {
+      "id": "writing",
+      "name_he": "כתיבה, עריכה ותוכן",
+      "description_he": "כתיבה שיווקית/מקצועית, ניסוח, עריכה ודקדוק."
+    },
+    {
+      "id": "research",
+      "name_he": "מחקר, חיפוש וידע עם מקורות",
+      "description_he": "חיפוש וסיכום עם ציטוטים/מקורות, ניהול ידע מחקרי."
+    },
+    {
+      "id": "coding",
+      "name_he": "פיתוח תוכנה (Code AI)",
+      "description_he": "עוזרי קוד, IDE חכמים, בדיקות ותיעוד."
+    },
+    {
+      "id": "automation",
+      "name_he": "אוטומציה ו-Workflow",
+      "description_he": "חיבור מערכות וזרימות עבודה, סוכנים ואוטומציות."
+    },
+    {
+      "id": "productivity",
+      "name_he": "פרודוקטיביות, ניהול משימות ומסמכים",
+      "description_he": "סיכומי פגישות, תמלול, מצגות, מסמכים ותכנון."
+    },
+    {
+      "id": "image_gen",
+      "name_he": "יצירת תמונות וגרפיקה",
+      "description_he": "טקסט-לתמונה, עריכת תמונות ויצירה גרפית."
+    },
+    {
+      "id": "video_gen",
+      "name_he": "וידאו, אנימציה ו-Avatars",
+      "description_he": "טקסט-לוידאו, עריכה חכמה, אווטרים ודיבוב."
+    },
+    {
+      "id": "audio_voice",
+      "name_he": "אודיו, קול ומוזיקה",
+      "description_he": "TTS, קלונינג קול, יצירת מוזיקה, שיפור אודיו."
+    },
+    {
+      "id": "design",
+      "name_he": "עיצוב מוצר ו-UX/UI",
+      "description_he": "עיצוב מסכים, פרוטוטייפ, עוזרי עיצוב ו-assets."
+    },
+    {
+      "id": "data_bi",
+      "name_he": "דאטה, BI ואנליטיקה",
+      "description_he": "ניתוח נתונים, דאטה-סיינס, BI, מודלים ואנליטיקה."
+    },
+    {
+      "id": "marketing",
+      "name_he": "שיווק, Growth וקריאייטיב",
+      "description_he": "קריאייטיב מודעות, SEO, קמפיינים ותוכן לשיווק."
+    },
+    {
+      "id": "sales_cs",
+      "name_he": "מכירות, CRM ושירות לקוחות",
+      "description_he": "Sales enablement, CRM, צ'אטבוטים ותמיכת לקוחות."
+    },
+    {
+      "id": "hr",
+      "name_he": "HR וגיוס",
+      "description_he": "מיון מועמדים, ראיונות, כתיבת מודעות ותהליכי HR."
+    },
+    {
+      "id": "legal",
+      "name_he": "משפטי ו-Compliance",
+      "description_he": "סקירת חוזים, ניסוח, ציות וניתוח מסמכים משפטיים."
+    },
+    {
+      "id": "security",
+      "name_he": "אבטחת מידע וסייבר",
+      "description_he": "זיהוי איומים, SOC, ניתוח אירועים ו-attack surface."
+    },
+    {
+      "id": "finance",
+      "name_he": "פיננסים וניתוח שווקים",
+      "description_he": "מחקר פיננסי, ניתוח דוחות, דאטה שווקים ועוזרים."
+    },
+    {
+      "id": "education",
+      "name_he": "למידה וחינוך",
+      "description_he": "מורים/חונכים, יצירת תרגול, כרטיסיות וסיכומים."
+    }
+  ],
+  "tools": [
+    {
+      "name": "ChatGPT (OpenAI)",
+      "url": "https://chat.openai.com/",
+      "category_id": "assistants",
+      "subcategory_he": "עוזר כללי רב-תחומי",
+      "description_he": "צ'אט AI לכתיבה, ניתוח, קוד ומשימות כלליות (כולל מודלים מולטימודליים לפי תכנית המשתמש).",
+      "tags": [
+        "chat",
+        "writing",
+        "coding",
+        "multimodal"
+      ]
+    },
+    {
+      "name": "Claude (Anthropic)",
+      "url": "https://claude.ai/",
+      "category_id": "assistants",
+      "subcategory_he": "עוזר שיחה וכתיבה",
+      "description_he": "עוזר שיחה המבוסס על מודלי Claude לשימושים של כתיבה, ניתוח ותמיכה במשימות ידע.",
+      "tags": [
+        "chat",
+        "analysis",
+        "writing"
+      ]
+    },
+    {
+      "name": "Google Gemini",
+      "url": "https://gemini.google.com/",
+      "category_id": "assistants",
+      "subcategory_he": "עוזר שיחה של Google",
+      "description_he": "עוזר שיחה של Google לשאלות, כתיבה וסיוע במשימות, עם אינטגרציות לשירותי Google.",
+      "tags": [
+        "chat",
+        "google",
+        "productivity"
+      ]
+    },
+    {
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com/",
+      "category_id": "assistants",
+      "subcategory_he": "עוזר שיחה של Microsoft",
+      "description_he": "עוזר שיחה של Microsoft למשימות ידע ויצירת תוכן, כולל שילובים עם מוצרי Microsoft.",
+      "tags": [
+        "chat",
+        "microsoft",
+        "productivity"
+      ]
+    },
+    {
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "category_id": "assistants",
+      "subcategory_he": "מנוע תשובות עם מקורות",
+      "description_he": "מנוע חיפוש-תשובות שמציג סיכומים ומקורות, מתאים למחקר מהיר.",
+      "tags": [
+        "search",
+        "citations",
+        "research"
+      ]
+    },
+    {
+      "name": "Grok",
+      "url": "https://grok.com/",
+      "category_id": "assistants",
+      "subcategory_he": "עוזר שיחה",
+      "description_he": "עוזר שיחה מבית xAI בתוך/לצד האקוסיסטם של X (טוויטר).",
+      "tags": [
+        "chat"
+      ]
+    },
+    {
+      "name": "Meta AI",
+      "url": "https://www.meta.ai/",
+      "category_id": "assistants",
+      "subcategory_he": "עוזר שיחה",
+      "description_he": "עוזר שיחה מבית Meta לשימושים כלליים דרך מוצרי Meta.",
+      "tags": [
+        "chat"
+      ]
+    },
+    {
+      "name": "Mistral (Le Chat)",
+      "url": "https://chat.mistral.ai/",
+      "category_id": "assistants",
+      "subcategory_he": "עוזר שיחה",
+      "description_he": "ממשק שיחה למודלי Mistral לשימושים כלליים.",
+      "tags": [
+        "chat",
+        "llm"
+      ]
+    },
+    {
+      "name": "Grammarly",
+      "url": "https://www.grammarly.com/",
+      "category_id": "writing",
+      "subcategory_he": "דקדוק וניסוח",
+      "description_he": "בדיקת דקדוק, ניסוח ושיפור טקסט באנגלית (ובחלק מהפיצ'רים גם כתיבה מסייעת).",
+      "tags": [
+        "writing",
+        "grammar"
+      ]
+    },
+    {
+      "name": "Wordtune",
+      "url": "https://www.wordtune.com/",
+      "category_id": "writing",
+      "subcategory_he": "שכתוב וניסוח",
+      "description_he": "כלי לשכתוב משפטים ושיפור סגנון כתיבה.",
+      "tags": [
+        "rewriting",
+        "writing"
+      ]
+    },
+    {
+      "name": "ProWritingAid",
+      "url": "https://prowritingaid.com/",
+      "category_id": "writing",
+      "subcategory_he": "עריכה לסופרים",
+      "description_he": "כלי עריכה וניתוח סגנון לכתיבה ארוכה (סיפורת/ספרות/תוכן).",
+      "tags": [
+        "writing",
+        "editing"
+      ]
+    },
+    {
+      "name": "Jasper",
+      "url": "https://www.jasper.ai/",
+      "category_id": "writing",
+      "subcategory_he": "קופי שיווקי",
+      "description_he": "פלטפורמה ליצירת תוכן שיווקי וקופי לקמפיינים.",
+      "tags": [
+        "marketing",
+        "copywriting"
+      ]
+    },
+    {
+      "name": "Copy.ai",
+      "url": "https://www.copy.ai/",
+      "category_id": "writing",
+      "subcategory_he": "קופי שיווקי",
+      "description_he": "כלי לכתיבת טקסטים שיווקיים ותהליכי תוכן לצוותים.",
+      "tags": [
+        "marketing",
+        "copywriting"
+      ]
+    },
+    {
+      "name": "Writesonic",
+      "url": "https://writesonic.com/",
+      "category_id": "writing",
+      "subcategory_he": "תוכן ו-SEO",
+      "description_he": "כלי ליצירת תוכן, בלוגים ודפי נחיתה, כולל פיצ'רי SEO.",
+      "tags": [
+        "seo",
+        "writing"
+      ]
+    },
+    {
+      "name": "Anyword",
+      "url": "https://anyword.com/",
+      "category_id": "writing",
+      "subcategory_he": "קופי ממוקד ביצועים",
+      "description_he": "פלטפורמה לכתיבת קופי עם דגש על התאמה לקהלים וביצועים.",
+      "tags": [
+        "marketing",
+        "copywriting"
+      ]
+    },
+    {
+      "name": "Writer",
+      "url": "https://writer.com/",
+      "category_id": "writing",
+      "subcategory_he": "כתיבה ארגונית",
+      "description_he": "פלטפורמת כתיבה ארגונית עם כללי מותג וזרימות עבודה לצוותים.",
+      "tags": [
+        "enterprise",
+        "writing"
+      ]
+    },
+    {
+      "name": "Sudowrite",
+      "url": "https://www.sudowrite.com/",
+      "category_id": "writing",
+      "subcategory_he": "כתיבה יצירתית",
+      "description_he": "כלי סיוע לכתיבה יצירתית (עלילה, סגנון, שכתוב).",
+      "tags": [
+        "creative",
+        "writing"
+      ]
+    },
+    {
+      "name": "Elicit",
+      "url": "https://elicit.com/",
+      "category_id": "research",
+      "subcategory_he": "סקירת ספרות",
+      "description_he": "כלי לסיוע במחקר אקדמי: חיפוש מאמרים, סיכומים וחילוץ טענות.",
+      "tags": [
+        "papers",
+        "research",
+        "citations"
+      ]
+    },
+    {
+      "name": "Consensus",
+      "url": "https://consensus.app/",
+      "category_id": "research",
+      "subcategory_he": "חיפוש מבוסס מאמרים",
+      "description_he": "מנוע חיפוש שמכוון לתשובות על בסיס מאמרים מדעיים.",
+      "tags": [
+        "papers",
+        "research"
+      ]
+    },
+    {
+      "name": "scite",
+      "url": "https://scite.ai/",
+      "category_id": "research",
+      "subcategory_he": "הערכת ציטוטים",
+      "description_he": "כלי שמסייע להבין כיצד מאמרים מצוטטים (תומך/סותר/מזכיר).",
+      "tags": [
+        "papers",
+        "citations"
+      ]
+    },
+    {
+      "name": "Zotero",
+      "url": "https://www.zotero.org/",
+      "category_id": "research",
+      "subcategory_he": "ניהול מקורות",
+      "description_he": "מנהל מקורות/ביבליוגרפיה (עם הרחבות ואקוסיסטם תוספים).",
+      "tags": [
+        "references",
+        "library"
+      ]
+    },
+    {
+      "name": "Connected Papers",
+      "url": "https://www.connectedpapers.com/",
+      "category_id": "research",
+      "subcategory_he": "מפת מאמרים",
+      "description_he": "ויזואליזציה של קשרים בין מאמרים כדי להרחיב סקירת ספרות.",
+      "tags": [
+        "papers",
+        "graph"
+      ]
+    },
+    {
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "category_id": "coding",
+      "subcategory_he": "עוזר קוד",
+      "description_he": "השלמת קוד והצעות בתוך IDE על בסיס קונטקסט.",
+      "tags": [
+        "coding",
+        "ide"
+      ]
+    },
+    {
+      "name": "Cursor",
+      "url": "https://www.cursor.com/",
+      "category_id": "coding",
+      "subcategory_he": "IDE עם AI",
+      "description_he": "עורך קוד/IDE עם יכולות AI מובנות לשיחה על קוד, refactor והשלמות.",
+      "tags": [
+        "coding",
+        "ide"
+      ]
+    },
+    {
+      "name": "Codeium",
+      "url": "https://codeium.com/",
+      "category_id": "coding",
+      "subcategory_he": "השלמות קוד",
+      "description_he": "השלמות קוד ושיחה על קוד במספר IDEים.",
+      "tags": [
+        "coding",
+        "ide"
+      ]
+    },
+    {
+      "name": "Amazon CodeWhisperer",
+      "url": "https://aws.amazon.com/codewhisperer/",
+      "category_id": "coding",
+      "subcategory_he": "השלמות קוד",
+      "description_he": "עוזר קוד מבית AWS להשלמות והצעות.",
+      "tags": [
+        "coding",
+        "aws"
+      ]
+    },
+    {
+      "name": "Replit",
+      "url": "https://replit.com/",
+      "category_id": "coding",
+      "subcategory_he": "פיתוח בענן",
+      "description_he": "סביבת פיתוח בענן עם יכולות AI ותבניות לפרויקטים.",
+      "tags": [
+        "coding",
+        "cloud"
+      ]
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "url": "https://sourcegraph.com/cody",
+      "category_id": "coding",
+      "subcategory_he": "חיפוש ושיחה על קוד בסיסים גדולים",
+      "description_he": "עוזר AI לניווט, חיפוש ושיחה על מאגרי קוד גדולים.",
+      "tags": [
+        "coding",
+        "search"
+      ]
+    },
+    {
+      "name": "Tabnine",
+      "url": "https://www.tabnine.com/",
+      "category_id": "coding",
+      "subcategory_he": "השלמות קוד",
+      "description_he": "עוזר השלמות קוד עם תמיכה ב-IDE שונים.",
+      "tags": [
+        "coding",
+        "ide"
+      ]
+    },
+    {
+      "name": "Snyk",
+      "url": "https://snyk.io/",
+      "category_id": "coding",
+      "subcategory_he": "אבטחת קוד",
+      "description_he": "סריקת תלות/קוד לאיתור חולשות ופתרונות.",
+      "tags": [
+        "security",
+        "dev"
+      ]
+    },
+    {
+      "name": "Zapier",
+      "url": "https://zapier.com/",
+      "category_id": "automation",
+      "subcategory_he": "אוטומציה",
+      "description_he": "חיבור אפליקציות ויצירת אוטומציות בין שירותים.",
+      "tags": [
+        "automation",
+        "integrations"
+      ]
+    },
+    {
+      "name": "Make",
+      "url": "https://www.make.com/",
+      "category_id": "automation",
+      "subcategory_he": "אוטומציה",
+      "description_he": "פלטפורמת no/low-code לזרימות עבודה מורכבות.",
+      "tags": [
+        "automation",
+        "integrations"
+      ]
+    },
+    {
+      "name": "n8n",
+      "url": "https://n8n.io/",
+      "category_id": "automation",
+      "subcategory_he": "אוטומציה למפתחים",
+      "description_he": "פלטפורמת אוטומציה עם יכולת self-host והרחבות.",
+      "tags": [
+        "automation",
+        "developer"
+      ]
+    },
+    {
+      "name": "IFTTT",
+      "url": "https://ifttt.com/",
+      "category_id": "automation",
+      "subcategory_he": "אוטומציות פשוטות",
+      "description_he": "אוטומציות קלות בין שירותים ואינטרנט של הדברים.",
+      "tags": [
+        "automation",
+        "iot"
+      ]
+    },
+    {
+      "name": "Airtable",
+      "url": "https://www.airtable.com/",
+      "category_id": "automation",
+      "subcategory_he": "בסיס נתונים ו-workflows",
+      "description_he": "פלטפורמה בסגנון גיליון-דאטהבייס עם אוטומציות ואפליקציות.",
+      "tags": [
+        "database",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Retool",
+      "url": "https://retool.com/",
+      "category_id": "automation",
+      "subcategory_he": "בניית כלים פנימיים",
+      "description_he": "בניית dashboards וכלים פנימיים עם אינטגרציות לדאטה.",
+      "tags": [
+        "internal-tools",
+        "workflow"
+      ]
+    },
+    {
+      "name": "Notion",
+      "url": "https://www.notion.so/",
+      "category_id": "productivity",
+      "subcategory_he": "ניהול ידע",
+      "description_he": "סביבת עבודה למסמכים, דאטה ומשימות עם יכולות AI.",
+      "tags": [
+        "docs",
+        "tasks",
+        "wiki"
+      ]
+    },
+    {
+      "name": "Fireflies.ai",
+      "url": "https://fireflies.ai/",
+      "category_id": "productivity",
+      "subcategory_he": "תמלול פגישות",
+      "description_he": "הקלטה/תמלול/סיכום פגישות עם חיפוש ושיתופים.",
+      "tags": [
+        "meetings",
+        "transcription"
+      ]
+    },
+    {
+      "name": "Otter.ai",
+      "url": "https://otter.ai/",
+      "category_id": "productivity",
+      "subcategory_he": "תמלול פגישות",
+      "description_he": "תמלול וסיכום פגישות ושיחות.",
+      "tags": [
+        "meetings",
+        "transcription"
+      ]
+    },
+    {
+      "name": "Read.ai",
+      "url": "https://www.read.ai/",
+      "category_id": "productivity",
+      "subcategory_he": "תובנות פגישות",
+      "description_he": "סיכומי פגישות, תובנות ופעולות המשך.",
+      "tags": [
+        "meetings",
+        "productivity"
+      ]
+    },
+    {
+      "name": "Gamma",
+      "url": "https://gamma.app/",
+      "category_id": "productivity",
+      "subcategory_he": "מצגות",
+      "description_he": "יצירת מצגות/מסמכים חזותיים על בסיס טקסט.",
+      "tags": [
+        "presentations",
+        "docs"
+      ]
+    },
+    {
+      "name": "Tome",
+      "url": "https://tome.app/",
+      "category_id": "productivity",
+      "subcategory_he": "סטוריטלינג ומצגות",
+      "description_he": "יצירת מצגות וסיפורים ויזואליים עם AI.",
+      "tags": [
+        "presentations"
+      ]
+    },
+    {
+      "name": "Beautiful.ai",
+      "url": "https://www.beautiful.ai/",
+      "category_id": "productivity",
+      "subcategory_he": "מצגות",
+      "description_he": "בניית מצגות עם תבניות ועיצוב אוטומטי.",
+      "tags": [
+        "presentations",
+        "design"
+      ]
+    },
+    {
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com/",
+      "category_id": "image_gen",
+      "subcategory_he": "טקסט-לתמונה",
+      "description_he": "מחולל תמונות מבוסס פרומפטים עם סגנון עשיר.",
+      "tags": [
+        "text-to-image",
+        "art"
+      ]
+    },
+    {
+      "name": "DALL·E (via ChatGPT)",
+      "url": "https://openai.com/dall-e",
+      "category_id": "image_gen",
+      "subcategory_he": "טקסט-לתמונה",
+      "description_he": "מודל יצירת תמונות מבית OpenAI (נגיש גם דרך מוצרי OpenAI).",
+      "tags": [
+        "text-to-image"
+      ]
+    },
+    {
+      "name": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly.html",
+      "category_id": "image_gen",
+      "subcategory_he": "יצירה ועריכה",
+      "description_he": "כלי יצירה גרפית של Adobe עם יכולות generative.",
+      "tags": [
+        "design",
+        "commercial"
+      ]
+    },
+    {
+      "name": "Leonardo AI",
+      "url": "https://leonardo.ai/",
+      "category_id": "image_gen",
+      "subcategory_he": "יצירת assets",
+      "description_he": "מחולל תמונות ו-assets, נפוץ לעיצוב משחקים וקריאייטיב.",
+      "tags": [
+        "assets",
+        "design"
+      ]
+    },
+    {
+      "name": "Ideogram",
+      "url": "https://ideogram.ai/",
+      "category_id": "image_gen",
+      "subcategory_he": "טקסט-לתמונה",
+      "description_he": "מחולל תמונות עם דגש על טקסט בתוך תמונות ועיצוב.",
+      "tags": [
+        "text-to-image",
+        "typography"
+      ]
+    },
+    {
+      "name": "Canva AI",
+      "url": "https://www.canva.com/",
+      "category_id": "image_gen",
+      "subcategory_he": "עיצוב עם AI",
+      "description_he": "כלי עיצוב עם יכולות AI ליצירת גרפיקה ותוכן.",
+      "tags": [
+        "design",
+        "templates"
+      ]
+    },
+    {
+      "name": "Remove.bg",
+      "url": "https://www.remove.bg/",
+      "category_id": "image_gen",
+      "subcategory_he": "הסרת רקע",
+      "description_he": "הסרת רקע אוטומטית לתמונות.",
+      "tags": [
+        "photo-editing"
+      ]
+    },
+    {
+      "name": "Runway",
+      "url": "https://runwayml.com/",
+      "category_id": "video_gen",
+      "subcategory_he": "וידאו גנרטיבי",
+      "description_he": "כלי ליצירת ועריכת וידאו בעזרת AI.",
+      "tags": [
+        "video",
+        "gen"
+      ]
+    },
+    {
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io/",
+      "category_id": "video_gen",
+      "subcategory_he": "אווטרים עסקיים",
+      "description_he": "יצירת סרטונים עם אווטרים מדברים על בסיס טקסט.",
+      "tags": [
+        "avatars",
+        "video"
+      ]
+    },
+    {
+      "name": "HeyGen",
+      "url": "https://www.heygen.com/",
+      "category_id": "video_gen",
+      "subcategory_he": "אווטרים ודיבוב",
+      "description_he": "יצירת סרטונים עם אווטרים, דיבוב ותרגום וידאו.",
+      "tags": [
+        "avatars",
+        "dubbing"
+      ]
+    },
+    {
+      "name": "Pika",
+      "url": "https://pika.art/",
+      "category_id": "video_gen",
+      "subcategory_he": "טקסט-לוידאו",
+      "description_he": "יצירת וידאו קצר על בסיס פרומפטים.",
+      "tags": [
+        "text-to-video"
+      ]
+    },
+    {
+      "name": "Descript",
+      "url": "https://www.descript.com/",
+      "category_id": "video_gen",
+      "subcategory_he": "עריכת וידאו/אודיו דרך טקסט",
+      "description_he": "עריכת תוכן לפי תמלול, עם תכונות דיבוב/שיפור שמע.",
+      "tags": [
+        "editing",
+        "transcription"
+      ]
+    },
+    {
+      "name": "CapCut",
+      "url": "https://www.capcut.com/",
+      "category_id": "video_gen",
+      "subcategory_he": "עריכה",
+      "description_he": "עורך וידאו עם פיצ'רי AI (כתוביות, אפקטים ועוד).",
+      "tags": [
+        "editing"
+      ]
+    },
+    {
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io/",
+      "category_id": "audio_voice",
+      "subcategory_he": "טקסט-לדיבור",
+      "description_he": "יצירת קריינות וקולות ב-AI (כולל דיבוב ושפות).",
+      "tags": [
+        "tts",
+        "voice"
+      ]
+    },
+    {
+      "name": "Play.ht",
+      "url": "https://play.ht/",
+      "category_id": "audio_voice",
+      "subcategory_he": "טקסט-לדיבור",
+      "description_he": "יצירת קריינות וקולות על בסיס טקסט.",
+      "tags": [
+        "tts",
+        "voice"
+      ]
+    },
+    {
+      "name": "Suno",
+      "url": "https://suno.com/",
+      "category_id": "audio_voice",
+      "subcategory_he": "יצירת מוזיקה",
+      "description_he": "יצירת שירים/מוזיקה על בסיס טקסט.",
+      "tags": [
+        "music",
+        "generation"
+      ]
+    },
+    {
+      "name": "Udio",
+      "url": "https://www.udio.com/",
+      "category_id": "audio_voice",
+      "subcategory_he": "יצירת מוזיקה",
+      "description_he": "יצירת מוזיקה ושירים באמצעות פרומפטים.",
+      "tags": [
+        "music",
+        "generation"
+      ]
+    },
+    {
+      "name": "Adobe Podcast",
+      "url": "https://podcast.adobe.com/",
+      "category_id": "audio_voice",
+      "subcategory_he": "שיפור דיבור",
+      "description_he": "כלי לשיפור איכות קול והקלטות דיבור.",
+      "tags": [
+        "audio",
+        "enhancement"
+      ]
+    },
+    {
+      "name": "Krisp",
+      "url": "https://krisp.ai/",
+      "category_id": "audio_voice",
+      "subcategory_he": "סינון רעשים",
+      "description_he": "סינון רעשי רקע לשיחות והקלטות.",
+      "tags": [
+        "noise-cancel"
+      ]
+    },
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com/",
+      "category_id": "design",
+      "subcategory_he": "עיצוב UI",
+      "description_he": "פלטפורמת עיצוב ושיתוף לקבצי UI/UX, עם יכולות AI במוצר.",
+      "tags": [
+        "ui",
+        "collaboration"
+      ]
+    },
+    {
+      "name": "Framer",
+      "url": "https://www.framer.com/",
+      "category_id": "design",
+      "subcategory_he": "אתרים ועיצוב",
+      "description_he": "בניית אתרים אינטראקטיביים עם רכיבים ותבניות, כולל יכולות AI.",
+      "tags": [
+        "web",
+        "design"
+      ]
+    },
+    {
+      "name": "Wix",
+      "url": "https://www.wix.com/",
+      "category_id": "design",
+      "subcategory_he": "בניית אתרים",
+      "description_he": "בניית אתרים עם רכיבי AI לתוכן ולעיצוב.",
+      "tags": [
+        "web",
+        "builder"
+      ]
+    },
+    {
+      "name": "Webflow",
+      "url": "https://webflow.com/",
+      "category_id": "design",
+      "subcategory_he": "בניית אתרים",
+      "description_he": "פלטפורמת בניית אתרים עם שליטה עיצובית מתקדמת.",
+      "tags": [
+        "web",
+        "builder"
+      ]
+    },
+    {
+      "name": "Miro",
+      "url": "https://miro.com/",
+      "category_id": "design",
+      "subcategory_he": "לוחות שיתופיים",
+      "description_he": "לוח שיתופי לסיעור מוחות ותכנון, עם פיצ'רי AI.",
+      "tags": [
+        "whiteboard",
+        "collaboration"
+      ]
+    },
+    {
+      "name": "Tableau",
+      "url": "https://www.tableau.com/",
+      "category_id": "data_bi",
+      "subcategory_he": "BI",
+      "description_he": "פלטפורמת BI לויזואליזציה וניתוח נתונים.",
+      "tags": [
+        "bi",
+        "analytics"
+      ]
+    },
+    {
+      "name": "Microsoft Power BI",
+      "url": "https://powerbi.microsoft.com/",
+      "category_id": "data_bi",
+      "subcategory_he": "BI",
+      "description_he": "BI מבית Microsoft לויזואליזציה ודשבורדים.",
+      "tags": [
+        "bi",
+        "microsoft"
+      ]
+    },
+    {
+      "name": "Looker",
+      "url": "https://cloud.google.com/looker",
+      "category_id": "data_bi",
+      "subcategory_he": "BI",
+      "description_he": "פלטפורמת BI של Google Cloud.",
+      "tags": [
+        "bi",
+        "google"
+      ]
+    },
+    {
+      "name": "DataRobot",
+      "url": "https://www.datarobot.com/",
+      "category_id": "data_bi",
+      "subcategory_he": "AutoML",
+      "description_he": "פלטפורמת ML/AutoML לבניית מודלים ופריסה.",
+      "tags": [
+        "ml",
+        "automl"
+      ]
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/",
+      "category_id": "data_bi",
+      "subcategory_he": "מודלים וקוד",
+      "description_he": "Hub למודלים, דאטהסטים וכלי NLP/GenAI למפתחים.",
+      "tags": [
+        "models",
+        "datasets"
+      ]
+    },
+    {
+      "name": "Semrush",
+      "url": "https://www.semrush.com/",
+      "category_id": "marketing",
+      "subcategory_he": "SEO",
+      "description_he": "כלי SEO ושיווק דיגיטלי עם יכולות AI בתהליכי תוכן ומחקר.",
+      "tags": [
+        "seo",
+        "marketing"
+      ]
+    },
+    {
+      "name": "Ahrefs",
+      "url": "https://ahrefs.com/",
+      "category_id": "marketing",
+      "subcategory_he": "SEO",
+      "description_he": "כלי SEO למחקר מילות מפתח וקישורים.",
+      "tags": [
+        "seo"
+      ]
+    },
+    {
+      "name": "Surfer SEO",
+      "url": "https://surferseo.com/",
+      "category_id": "marketing",
+      "subcategory_he": "SEO תוכן",
+      "description_he": "אופטימיזציה לכתיבה ותוכן בהתאם ל-SEO.",
+      "tags": [
+        "seo",
+        "content"
+      ]
+    },
+    {
+      "name": "HubSpot",
+      "url": "https://www.hubspot.com/",
+      "category_id": "marketing",
+      "subcategory_he": "שיווק/CRM",
+      "description_he": "פלטפורמת שיווק ו-CRM עם יכולות AI במוצר.",
+      "tags": [
+        "crm",
+        "marketing"
+      ]
+    },
+    {
+      "name": "AdCreative.ai",
+      "url": "https://www.adcreative.ai/",
+      "category_id": "marketing",
+      "subcategory_he": "קריאייטיב מודעות",
+      "description_he": "יצירת קריאייטיבים למודעות בעזרת AI.",
+      "tags": [
+        "ads",
+        "creative"
+      ]
+    },
+    {
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "category_id": "marketing",
+      "subcategory_he": "עיצוב שיווקי",
+      "description_he": "עיצוב לתכנים שיווקיים עם תבניות ויכולות AI.",
+      "tags": [
+        "design",
+        "marketing"
+      ]
+    },
+    {
+      "name": "Salesforce Einstein",
+      "url": "https://www.salesforce.com/products/einstein/",
+      "category_id": "sales_cs",
+      "subcategory_he": "AI ל-CRM",
+      "description_he": "יכולות AI בתוך Salesforce לניתוח, תחזיות ואוטומציה.",
+      "tags": [
+        "crm",
+        "sales"
+      ]
+    },
+    {
+      "name": "Intercom",
+      "url": "https://www.intercom.com/",
+      "category_id": "sales_cs",
+      "subcategory_he": "שירות לקוחות",
+      "description_he": "פלטפורמת שירות לקוחות וצ'אט עם יכולות AI.",
+      "tags": [
+        "support",
+        "chat"
+      ]
+    },
+    {
+      "name": "Zendesk",
+      "url": "https://www.zendesk.com/",
+      "category_id": "sales_cs",
+      "subcategory_he": "שירות לקוחות",
+      "description_he": "מערכת טיקטים ושירות לקוחות עם יכולות אוטומציה/AI.",
+      "tags": [
+        "support"
+      ]
+    },
+    {
+      "name": "Gong",
+      "url": "https://www.gong.io/",
+      "category_id": "sales_cs",
+      "subcategory_he": "Revenue intelligence",
+      "description_he": "ניתוח שיחות מכירה ותובנות לצוותי Revenue.",
+      "tags": [
+        "sales",
+        "calls"
+      ]
+    },
+    {
+      "name": "Drift",
+      "url": "https://www.drift.com/",
+      "category_id": "sales_cs",
+      "subcategory_he": "שיווק שיחה",
+      "description_he": "צ'אט ו-automation ליצירת לידים.",
+      "tags": [
+        "chat",
+        "leadgen"
+      ]
+    },
+    {
+      "name": "LinkedIn Talent Solutions",
+      "url": "https://business.linkedin.com/talent-solutions",
+      "category_id": "hr",
+      "subcategory_he": "גיוס",
+      "description_he": "כלים לגיוס וניהול תהליכי מועמדים בתוך LinkedIn.",
+      "tags": [
+        "recruiting"
+      ]
+    },
+    {
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.com/",
+      "category_id": "hr",
+      "subcategory_he": "ATS",
+      "description_he": "מערכת ניהול גיוס (ATS) עם אינטגרציות.",
+      "tags": [
+        "ats",
+        "recruiting"
+      ]
+    },
+    {
+      "name": "Lever",
+      "url": "https://www.lever.co/",
+      "category_id": "hr",
+      "subcategory_he": "ATS",
+      "description_he": "ATS לניהול תהליכי גיוס.",
+      "tags": [
+        "ats",
+        "recruiting"
+      ]
+    },
+    {
+      "name": "Textio",
+      "url": "https://textio.com/",
+      "category_id": "hr",
+      "subcategory_he": "כתיבת מודעות",
+      "description_he": "שיפור ניסוח מודעות דרושים ושפת תקשורת ארגונית.",
+      "tags": [
+        "writing",
+        "hr"
+      ]
+    },
+    {
+      "name": "Harvey",
+      "url": "https://www.harvey.ai/",
+      "category_id": "legal",
+      "subcategory_he": "עוזר משפטי",
+      "description_he": "פלטפורמה לעבודה משפטית עם AI (מחקר/טיוטות/מסמכים).",
+      "tags": [
+        "legal",
+        "documents"
+      ]
+    },
+    {
+      "name": "Ironclad",
+      "url": "https://ironcladapp.com/",
+      "category_id": "legal",
+      "subcategory_he": "ניהול חוזים",
+      "description_he": "CLM לניהול חוזים, זרימות אישור וניתוח.",
+      "tags": [
+        "contracts",
+        "clm"
+      ]
+    },
+    {
+      "name": "Luminance",
+      "url": "https://www.luminance.com/",
+      "category_id": "legal",
+      "subcategory_he": "ניתוח חוזים",
+      "description_he": "כלי לניתוח חוזים ובדיקות due diligence.",
+      "tags": [
+        "contracts",
+        "analysis"
+      ]
+    },
+    {
+      "name": "DocuSign",
+      "url": "https://www.docusign.com/",
+      "category_id": "legal",
+      "subcategory_he": "חתימות דיגיטליות",
+      "description_he": "חתימות דיגיטליות וניהול מסמכים.",
+      "tags": [
+        "esign",
+        "workflow"
+      ]
+    },
+    {
+      "name": "CrowdStrike",
+      "url": "https://www.crowdstrike.com/",
+      "category_id": "security",
+      "subcategory_he": "EDR/XDR",
+      "description_he": "פלטפורמת אבטחה לנקודות קצה ולזיהוי איומים.",
+      "tags": [
+        "edr",
+        "xdr"
+      ]
+    },
+    {
+      "name": "Palo Alto Networks",
+      "url": "https://www.paloaltonetworks.com/",
+      "category_id": "security",
+      "subcategory_he": "אבטחת רשת",
+      "description_he": "מוצרי אבטחת רשת וענן (משפחה רחבה).",
+      "tags": [
+        "network-security"
+      ]
+    },
+    {
+      "name": "Wiz",
+      "url": "https://www.wiz.io/",
+      "category_id": "security",
+      "subcategory_he": "אבטחת ענן",
+      "description_he": "אבטחת ענן (CSPM/CNAPP) לנראות וסיכונים.",
+      "tags": [
+        "cloud-security"
+      ]
+    },
+    {
+      "name": "Snyk",
+      "url": "https://snyk.io/",
+      "category_id": "security",
+      "subcategory_he": "AppSec",
+      "description_he": "אבטחת קוד ותלויות (כלי AppSec).",
+      "tags": [
+        "appsec"
+      ]
+    },
+    {
+      "name": "Darktrace",
+      "url": "https://darktrace.com/",
+      "category_id": "security",
+      "subcategory_he": "זיהוי אנומליות",
+      "description_he": "זיהוי אנומליות ואיומים ברשת/אימייל.",
+      "tags": [
+        "threat-detection"
+      ]
+    },
+    {
+      "name": "AlphaSense",
+      "url": "https://www.alpha-sense.com/",
+      "category_id": "finance",
+      "subcategory_he": "מחקר פיננסי",
+      "description_he": "פלטפורמת מחקר לשווקים וחברות עם חיפוש מסמכים ותובנות.",
+      "tags": [
+        "finance",
+        "research"
+      ]
+    },
+    {
+      "name": "FactSet",
+      "url": "https://www.factset.com/",
+      "category_id": "finance",
+      "subcategory_he": "דאטה פיננסי",
+      "description_he": "דאטה וכלי אנליטיקה לשווקים ומוסדות.",
+      "tags": [
+        "market-data"
+      ]
+    },
+    {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/professional",
+      "category_id": "finance",
+      "subcategory_he": "דאטה וטרמינל",
+      "description_he": "מוצרי Bloomberg Professional לשוק ההון.",
+      "tags": [
+        "market-data"
+      ]
+    },
+    {
+      "name": "TradingView",
+      "url": "https://www.tradingview.com/",
+      "category_id": "finance",
+      "subcategory_he": "גרפים וניתוח",
+      "description_he": "פלטפורמת גרפים וניתוח טכני/קהילה.",
+      "tags": [
+        "charts",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Khan Academy (Khanmigo)",
+      "url": "https://www.khanacademy.org/khan-labs",
+      "category_id": "education",
+      "subcategory_he": "חונך למידה",
+      "description_he": "כלי/פיצ'רים ניסיוניים של Khan ללמידה מודרכת.",
+      "tags": [
+        "tutor",
+        "education"
+      ]
+    },
+    {
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com/",
+      "category_id": "education",
+      "subcategory_he": "לימוד שפות",
+      "description_he": "לימוד שפות עם התאמה ותרגול.",
+      "tags": [
+        "languages"
+      ]
+    },
+    {
+      "name": "Quizlet",
+      "url": "https://quizlet.com/",
+      "category_id": "education",
+      "subcategory_he": "כרטיסיות ותרגול",
+      "description_he": "כרטיסיות, תרגול ובנק שאלות (כולל יכולות AI במוצר).",
+      "tags": [
+        "flashcards",
+        "study"
+      ]
+    },
+    {
+      "name": "Coursera",
+      "url": "https://www.coursera.org/",
+      "category_id": "education",
+      "subcategory_he": "קורסים",
+      "description_he": "פלטפורמת קורסים עם כלי למידה ותוכן רחב.",
+      "tags": [
+        "courses"
+      ]
+    }
+  ]
+}
