@@ -1227,6 +1227,430 @@
       "tags": [
         "courses"
       ]
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com/",
+      "category_id": "assistants",
+      "subcategory_he": "עוזר שיחה וקוד",
+      "description_he": "מודל שפה סיני בקוד פתוח עם יכולות חשיבה (reasoning) וקוד מתקדמות, מתחרה במודלים המובילים.",
+      "tags": ["chat", "coding", "reasoning", "open-source"]
+    },
+    {
+      "name": "Qwen Chat (Alibaba)",
+      "url": "https://chat.qwenlm.ai/",
+      "category_id": "assistants",
+      "subcategory_he": "עוזר שיחה",
+      "description_he": "מודל שפה מבית Alibaba Cloud עם יכולות מולטימודליות, זוכה פרס NeurIPS 2025.",
+      "tags": ["chat", "multimodal", "open-source"]
+    },
+    {
+      "name": "Cohere",
+      "url": "https://cohere.com/",
+      "category_id": "assistants",
+      "subcategory_he": "AI ארגוני",
+      "description_he": "פלטפורמת LLM ארגונית עם דגש על RAG, חיפוש וסיווג טקסט.",
+      "tags": ["enterprise", "rag", "nlp"]
+    },
+    {
+      "name": "NotebookLM (Google)",
+      "url": "https://notebooklm.google.com/",
+      "category_id": "research",
+      "subcategory_he": "עוזר מחקר אישי",
+      "description_he": "כלי מחקר של Google שמנתח מסמכים שהועלו ויוצר סיכומים, שאלות ותשובות ופודקאסטים אוטומטיים.",
+      "tags": ["research", "notes", "podcast", "google"]
+    },
+    {
+      "name": "You.com",
+      "url": "https://you.com/",
+      "category_id": "research",
+      "subcategory_he": "מנוע חיפוש AI",
+      "description_he": "מנוע חיפוש עם תשובות AI מבוססות מקורות, כולל מצבי עבודה שונים (חיפוש, כתיבה, קוד).",
+      "tags": ["search", "research", "citations"]
+    },
+    {
+      "name": "Phind",
+      "url": "https://www.phind.com/",
+      "category_id": "research",
+      "subcategory_he": "חיפוש למפתחים",
+      "description_he": "מנוע חיפוש AI מותאם למפתחים עם תשובות טכניות מבוססות מקורות.",
+      "tags": ["search", "coding", "developer"]
+    },
+    {
+      "name": "Windsurf",
+      "url": "https://windsurf.com/",
+      "category_id": "coding",
+      "subcategory_he": "IDE אגנטי",
+      "description_he": "IDE אגנטי (לשעבר Codeium) עם זרימת עבודה חלקה בין מפתח ל-AI, מתחרה ישיר ל-Cursor.",
+      "tags": ["coding", "ide", "agentic"]
+    },
+    {
+      "name": "Bolt.new",
+      "url": "https://bolt.new/",
+      "category_id": "coding",
+      "subcategory_he": "בניית אפליקציות",
+      "description_he": "פלטפורמה לבניית אפליקציות ואתרים מלאים בעזרת פרומפטים, עם פריסה מיידית.",
+      "tags": ["coding", "fullstack", "deploy"]
+    },
+    {
+      "name": "v0 (Vercel)",
+      "url": "https://v0.dev/",
+      "category_id": "coding",
+      "subcategory_he": "יצירת UI",
+      "description_he": "כלי של Vercel ליצירת רכיבי React/UI מתוך פרומפטים או עיצובי Figma.",
+      "tags": ["coding", "ui", "react"]
+    },
+    {
+      "name": "Lovable",
+      "url": "https://lovable.dev/",
+      "category_id": "coding",
+      "subcategory_he": "בניית אפליקציות",
+      "description_he": "פלטפורמה לבניית אפליקציות web מלאות מפרומפט, כולל backend, auth ודאטהבייס.",
+      "tags": ["coding", "fullstack", "no-code"]
+    },
+    {
+      "name": "Devin (Cognition)",
+      "url": "https://www.cognition.ai/",
+      "category_id": "coding",
+      "subcategory_he": "מהנדס תוכנה AI",
+      "description_he": "סוכן AI אוטונומי לפיתוח תוכנה שיכול לתכנן, לכתוב קוד, לדבג ולפרוס באופן עצמאי.",
+      "tags": ["coding", "agent", "autonomous"]
+    },
+    {
+      "name": "Claude Code (Anthropic)",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "category_id": "coding",
+      "subcategory_he": "כלי קוד בטרמינל",
+      "description_he": "כלי CLI אגנטי של Anthropic לפיתוח תוכנה ישירות מהטרמינל עם הבנת פרויקט מלאה.",
+      "tags": ["coding", "cli", "agent"]
+    },
+    {
+      "name": "Pieces",
+      "url": "https://pieces.app/",
+      "category_id": "coding",
+      "subcategory_he": "ניהול קטעי קוד",
+      "description_he": "כלי לשמירה, ארגון ושימוש חוזר בקטעי קוד עם AI לקונטקסט.",
+      "tags": ["coding", "snippets", "productivity"]
+    },
+    {
+      "name": "Bardeen",
+      "url": "https://www.bardeen.ai/",
+      "category_id": "automation",
+      "subcategory_he": "אוטומציה בדפדפן",
+      "description_he": "אוטומציות חכמות בדפדפן ליצירת workflows בין אפליקציות ואתרים.",
+      "tags": ["automation", "browser", "scraping"]
+    },
+    {
+      "name": "Relevance AI",
+      "url": "https://relevanceai.com/",
+      "category_id": "automation",
+      "subcategory_he": "סוכני AI",
+      "description_he": "פלטפורמה לבניית סוכני AI (AI Agents) לצוותי מכירות, שיווק ותפעול.",
+      "tags": ["agents", "automation", "no-code"]
+    },
+    {
+      "name": "tl;dv",
+      "url": "https://tldv.io/",
+      "category_id": "productivity",
+      "subcategory_he": "הקלטת פגישות",
+      "description_he": "הקלטה, תמלול וסיכום אוטומטי של פגישות Zoom/Meet/Teams עם שיתוף קליפים.",
+      "tags": ["meetings", "transcription", "recording"]
+    },
+    {
+      "name": "Loom",
+      "url": "https://www.loom.com/",
+      "category_id": "productivity",
+      "subcategory_he": "הודעות וידאו",
+      "description_he": "הקלטה ושיתוף הודעות וידאו עם סיכומי AI, תמלול וקטעים חכמים.",
+      "tags": ["video", "messaging", "async"]
+    },
+    {
+      "name": "Scribe",
+      "url": "https://scribehow.com/",
+      "category_id": "productivity",
+      "subcategory_he": "תיעוד תהליכים",
+      "description_he": "יצירה אוטומטית של מדריכי How-To עם צילומי מסך תוך כדי ביצוע תהליך.",
+      "tags": ["documentation", "guides", "process"]
+    },
+    {
+      "name": "ClickUp",
+      "url": "https://clickup.com/",
+      "category_id": "productivity",
+      "subcategory_he": "ניהול פרויקטים",
+      "description_he": "פלטפורמת ניהול פרויקטים ומשימות עם עוזר AI מובנה לכתיבה, סיכומים ומשימות.",
+      "tags": ["project-management", "tasks", "docs"]
+    },
+    {
+      "name": "Napkin AI",
+      "url": "https://www.napkin.ai/",
+      "category_id": "productivity",
+      "subcategory_he": "ויזואליזציה מטקסט",
+      "description_he": "הפיכת טקסט לתרשימים, אינפוגרפיקות וויזואליזציות באופן אוטומטי.",
+      "tags": ["diagrams", "infographic", "visual"]
+    },
+    {
+      "name": "Stability AI (Stable Diffusion)",
+      "url": "https://stability.ai/",
+      "category_id": "image_gen",
+      "subcategory_he": "טקסט-לתמונה (קוד פתוח)",
+      "description_he": "מודל יצירת תמונות בקוד פתוח, בסיס לאקוסיסטם רחב של כלים וקהילה.",
+      "tags": ["text-to-image", "open-source", "sd"]
+    },
+    {
+      "name": "Flux (Black Forest Labs)",
+      "url": "https://blackforestlabs.ai/",
+      "category_id": "image_gen",
+      "subcategory_he": "טקסט-לתמונה",
+      "description_he": "מודל יצירת תמונות מתקדם מהיוצרים של Stable Diffusion, עם איכות גבוהה במיוחד.",
+      "tags": ["text-to-image", "open-source"]
+    },
+    {
+      "name": "PhotoRoom",
+      "url": "https://www.photoroom.com/",
+      "category_id": "image_gen",
+      "subcategory_he": "עריכת תמונות מוצר",
+      "description_he": "עריכת תמונות מוצר, הסרת רקע ויצירת תמונות שיווקיות באמצעות AI.",
+      "tags": ["photo-editing", "ecommerce", "background"]
+    },
+    {
+      "name": "Clipdrop",
+      "url": "https://clipdrop.co/",
+      "category_id": "image_gen",
+      "subcategory_he": "עריכת תמונות",
+      "description_he": "סט כלי AI לעריכת תמונות: הסרת רקע, שדרוג, הסרת אובייקטים ויצירה.",
+      "tags": ["photo-editing", "tools"]
+    },
+    {
+      "name": "Sora (OpenAI)",
+      "url": "https://sora.com/",
+      "category_id": "video_gen",
+      "subcategory_he": "טקסט-לוידאו",
+      "description_he": "מודל יצירת וידאו מתקדם של OpenAI שמייצר סרטונים ריאליסטיים מפרומפטים.",
+      "tags": ["text-to-video", "openai"]
+    },
+    {
+      "name": "Kling AI",
+      "url": "https://klingai.com/",
+      "category_id": "video_gen",
+      "subcategory_he": "טקסט-לוידאו",
+      "description_he": "מחולל וידאו AI סיני עם יכולות תנועה מרשימות ויצירת דמויות.",
+      "tags": ["text-to-video", "motion"]
+    },
+    {
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/dream-machine",
+      "category_id": "video_gen",
+      "subcategory_he": "וידאו קולנועי",
+      "description_he": "מחולל וידאו קולנועי שהופך טקסט ותמונות לסרטונים עם תנועה טבעית ותאורה ריאליסטית.",
+      "tags": ["text-to-video", "cinematic"]
+    },
+    {
+      "name": "Opus Clip",
+      "url": "https://www.opus.pro/",
+      "category_id": "video_gen",
+      "subcategory_he": "חיתוך קליפים",
+      "description_he": "כלי AI שחותך סרטונים ארוכים לקליפים קצרים ויראליים לרשתות חברתיות.",
+      "tags": ["clips", "social-media", "repurpose"]
+    },
+    {
+      "name": "InVideo",
+      "url": "https://invideo.io/",
+      "category_id": "video_gen",
+      "subcategory_he": "יצירת וידאו",
+      "description_he": "פלטפורמה ליצירת סרטונים מטקסט עם תבניות, מדיה מוכנה ועריכה בעזרת AI.",
+      "tags": ["video", "templates", "editing"]
+    },
+    {
+      "name": "Murf AI",
+      "url": "https://murf.ai/",
+      "category_id": "audio_voice",
+      "subcategory_he": "קריינות AI",
+      "description_he": "יצירת קריינות מקצועיות בלמעלה מ-120 קולות ו-20 שפות.",
+      "tags": ["tts", "voice", "studio"]
+    },
+    {
+      "name": "Speechify",
+      "url": "https://speechify.com/",
+      "category_id": "audio_voice",
+      "subcategory_he": "טקסט-לדיבור",
+      "description_he": "הפיכת כל טקסט לדיבור טבעי, כולל תוסף דפדפן ו-API.",
+      "tags": ["tts", "reading", "accessibility"]
+    },
+    {
+      "name": "Deepgram",
+      "url": "https://deepgram.com/",
+      "category_id": "audio_voice",
+      "subcategory_he": "זיהוי דיבור",
+      "description_he": "API לזיהוי דיבור (Speech-to-Text) ו-TTS עם דיוק גבוה וזמן תגובה נמוך.",
+      "tags": ["stt", "tts", "api"]
+    },
+    {
+      "name": "AssemblyAI",
+      "url": "https://www.assemblyai.com/",
+      "category_id": "audio_voice",
+      "subcategory_he": "זיהוי דיבור",
+      "description_he": "API לתמלול, הבנת אודיו וזיהוי דוברים עם מודלים מתקדמים.",
+      "tags": ["stt", "transcription", "api"]
+    },
+    {
+      "name": "Galileo AI",
+      "url": "https://www.usegalileo.ai/",
+      "category_id": "design",
+      "subcategory_he": "עיצוב UI בעזרת AI",
+      "description_he": "יצירת עיצובי UI מוכנים לשימוש מפרומפט טקסט, כולל תמונות ותוכן.",
+      "tags": ["ui", "design", "generation"]
+    },
+    {
+      "name": "Uizard",
+      "url": "https://uizard.io/",
+      "category_id": "design",
+      "subcategory_he": "פרוטוטייפ AI",
+      "description_he": "יצירת פרוטוטייפים ומסכי אפליקציה מסקיצות, צילומי מסך או פרומפטים.",
+      "tags": ["prototype", "design", "wireframe"]
+    },
+    {
+      "name": "Durable",
+      "url": "https://durable.co/",
+      "category_id": "design",
+      "subcategory_he": "בניית אתרים",
+      "description_he": "בניית אתר עסקי שלם ב-30 שניות בעזרת AI כולל תוכן, תמונות ו-CRM.",
+      "tags": ["website", "builder", "business"]
+    },
+    {
+      "name": "Weights & Biases",
+      "url": "https://wandb.ai/",
+      "category_id": "data_bi",
+      "subcategory_he": "MLOps",
+      "description_he": "פלטפורמה למעקב ניסויים, ניהול מודלים וויזואליזציה של תהליכי ML.",
+      "tags": ["mlops", "experiments", "models"]
+    },
+    {
+      "name": "Kaggle",
+      "url": "https://www.kaggle.com/",
+      "category_id": "data_bi",
+      "subcategory_he": "תחרויות ודאטה",
+      "description_he": "קהילת דאטה סיינס עם תחרויות, דאטהסטים, נוטבוקים וקורסים.",
+      "tags": ["data-science", "competitions", "notebooks"]
+    },
+    {
+      "name": "Predis.ai",
+      "url": "https://predis.ai/",
+      "category_id": "marketing",
+      "subcategory_he": "תוכן לרשתות חברתיות",
+      "description_he": "יצירת פוסטים, סטוריז, reels ומודעות לרשתות חברתיות בעזרת AI.",
+      "tags": ["social-media", "content", "creative"]
+    },
+    {
+      "name": "Hootsuite",
+      "url": "https://www.hootsuite.com/",
+      "category_id": "marketing",
+      "subcategory_he": "ניהול רשתות חברתיות",
+      "description_he": "ניהול ותזמון פוסטים ברשתות חברתיות עם כלי AI ליצירת תוכן וניתוח.",
+      "tags": ["social-media", "scheduling", "analytics"]
+    },
+    {
+      "name": "Apollo.io",
+      "url": "https://www.apollo.io/",
+      "category_id": "sales_cs",
+      "subcategory_he": "Sales intelligence",
+      "description_he": "פלטפורמת מכירות עם בסיס נתונים של אנשי קשר, AI לכתיבת מיילים ואוטומציות.",
+      "tags": ["sales", "leads", "outreach"]
+    },
+    {
+      "name": "Lavender",
+      "url": "https://www.lavender.ai/",
+      "category_id": "sales_cs",
+      "subcategory_he": "AI למיילים",
+      "description_he": "עוזר AI לכתיבת מיילי מכירות עם ניקוד, הצעות שיפור והתאמה לנמען.",
+      "tags": ["email", "sales", "writing"]
+    },
+    {
+      "name": "Botpress",
+      "url": "https://botpress.com/",
+      "category_id": "sales_cs",
+      "subcategory_he": "בניית צ'אטבוטים",
+      "description_he": "פלטפורמה לבניית צ'אטבוטים ועוזרים וירטואליים מבוססי AI.",
+      "tags": ["chatbot", "builder", "support"]
+    },
+    {
+      "name": "Paradox (Olivia)",
+      "url": "https://www.paradox.ai/",
+      "category_id": "hr",
+      "subcategory_he": "AI לגיוס",
+      "description_he": "עוזרת AI (Olivia) לתהליכי גיוס: תיאום ראיונות, מיון ותקשורת עם מועמדים.",
+      "tags": ["recruiting", "chatbot", "scheduling"]
+    },
+    {
+      "name": "Eightfold AI",
+      "url": "https://eightfold.ai/",
+      "category_id": "hr",
+      "subcategory_he": "Talent Intelligence",
+      "description_he": "פלטפורמת AI להתאמת כישרונות, ניהול קריירה וגיוס חכם.",
+      "tags": ["talent", "matching", "hr"]
+    },
+    {
+      "name": "CoCounsel (Thomson Reuters)",
+      "url": "https://casetext.com/",
+      "category_id": "legal",
+      "subcategory_he": "מחקר משפטי",
+      "description_he": "עוזר AI למחקר משפטי, ניתוח מסמכים וסקירת חוזים.",
+      "tags": ["legal", "research", "analysis"]
+    },
+    {
+      "name": "SentinelOne",
+      "url": "https://www.sentinelone.com/",
+      "category_id": "security",
+      "subcategory_he": "EDR/XDR",
+      "description_he": "פלטפורמת אבטחה אוטונומית עם AI לזיהוי ותגובה לאיומים בנקודות קצה.",
+      "tags": ["edr", "xdr", "autonomous"]
+    },
+    {
+      "name": "Photomath",
+      "url": "https://photomath.com/",
+      "category_id": "education",
+      "subcategory_he": "פתרון מתמטיקה",
+      "description_he": "סריקת תרגילי מתמטיקה במצלמה וקבלת פתרונות מפורטים צעד-אחר-צעד.",
+      "tags": ["math", "solver", "step-by-step"]
+    },
+    {
+      "name": "Socratic (Google)",
+      "url": "https://socratic.org/",
+      "category_id": "education",
+      "subcategory_he": "עוזר לימודים",
+      "description_he": "אפליקציית למידה של Google שעונה על שאלות לימודיות עם הסברים ויזואליים.",
+      "tags": ["learning", "questions", "google"]
+    },
+    {
+      "name": "Ollama",
+      "url": "https://ollama.com/",
+      "category_id": "coding",
+      "subcategory_he": "הרצת מודלים מקומית",
+      "description_he": "הרצת מודלי שפה (LLM) מקומית על המחשב שלך - Llama, Mistral, Gemma ועוד.",
+      "tags": ["local", "llm", "open-source", "privacy"]
+    },
+    {
+      "name": "LM Studio",
+      "url": "https://lmstudio.ai/",
+      "category_id": "coding",
+      "subcategory_he": "הרצת מודלים מקומית",
+      "description_he": "אפליקציה להורדה והרצה של מודלי AI מקומית עם ממשק גרפי ו-API תואם OpenAI.",
+      "tags": ["local", "llm", "gui", "privacy"]
+    },
+    {
+      "name": "Groq",
+      "url": "https://groq.com/",
+      "category_id": "data_bi",
+      "subcategory_he": "Inference מהיר",
+      "description_he": "תשתית inference מהירה במיוחד למודלי AI עם חומרת LPU ייעודית.",
+      "tags": ["inference", "speed", "api"]
+    },
+    {
+      "name": "Replicate",
+      "url": "https://replicate.com/",
+      "category_id": "data_bi",
+      "subcategory_he": "הרצת מודלים בענן",
+      "description_he": "פלטפורמה להרצת מודלי AI בקוד פתוח דרך API פשוט.",
+      "tags": ["models", "api", "cloud"]
     }
   ]
 }
